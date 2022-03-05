@@ -2,9 +2,10 @@ package com.ltts.module3.Arithmetic;
 import java.util.Scanner;
 import com.ltts.module3.sum.sum;
 public class Arithmetic {
+	Scanner sca=new Scanner(System.in);
 	public void option()
 	{
-		Scanner sca=new Scanner(System.in);
+		
 		System.out.println("1.Sum\n2.Substract\n3.Multiplication\n4.Division\n5.Square\n6.SquareRoot\n7.Approx Value\n8.Power of Number\n9.Factorial");
 		int opti=sca.nextInt();
 		sum s1=new sum();
@@ -39,12 +40,15 @@ public class Arithmetic {
         case 7:
         	
         	s1.approx();
+        	break;
         case 8:
         	
         	s1.power();
+        	break;
         case 9:
         	
         	s1.facto();
+        	break;
 		}
 	}
 
