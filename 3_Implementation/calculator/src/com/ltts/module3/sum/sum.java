@@ -6,6 +6,7 @@ import com.ltts.module3.Arithmetic.Arithmetic;
 
 
 public class sum {
+	    Scanner sc=new Scanner(System.in);
 		private double operator1;
 		private double operator2;
 		private double result;
@@ -36,7 +37,7 @@ public class sum {
 		public void setResult(double result) {
 			this.result = result;
 		}
-		Scanner sc=new Scanner(System.in);
+		
 		public void resl()
 		{
 			
