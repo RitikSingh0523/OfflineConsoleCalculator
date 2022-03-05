@@ -3,7 +3,7 @@ package com.ltts.module3.sum;
 import java.util.Scanner;
 
 import com.ltts.module3.Arithmetic.Arithmetic;
-import com.ltts.module3.main.Begin;
+
 
 public class sum {
 		private double operator1;
@@ -36,11 +36,11 @@ public class sum {
 		public void setResult(double result) {
 			this.result = result;
 		}
-		
+		Scanner sc=new Scanner(System.in);
 		public void resl()
 		{
 			
-			Scanner sc=new Scanner(System.in);
+			
 			
 			System.out.print("Enter First Operator:-");
 			double a=sc.nextDouble();
@@ -60,7 +60,7 @@ public class sum {
 		public void Subs()
 		{
 			
-			Scanner sc=new Scanner(System.in);
+			
 			System.out.print("Enter First Operator:-");
 			double a=sc.nextDouble();
 			setOperator1(a);
@@ -76,7 +76,7 @@ public class sum {
 		}
 		public void mult()
         {		
-			Scanner sc=new Scanner(System.in);
+			
 			System.out.print("Enter First Operator:-");
 			double a=sc.nextDouble();
 			setOperator1(a);
@@ -92,7 +92,7 @@ public class sum {
 		}
 		public void divi()
 		{
-	Scanner sc=new Scanner(System.in);
+	
 			
 			System.out.print("Enter First Operator:-");
 			double a=sc.nextDouble();
@@ -117,7 +117,7 @@ public class sum {
 		public void square()
 		{
 			
-			Scanner sc=new Scanner(System.in);
+			
 			
 			System.out.print("Enter your Operator:-");
 			double a=sc.nextDouble();
@@ -133,7 +133,7 @@ public class sum {
 		}
 		public void Squareroot()
 		{
-	        Scanner sc=new Scanner(System.in);
+	        
 			
 			System.out.print("Enter Your Operator:-");
 			double a=sc.nextDouble();
@@ -147,7 +147,7 @@ public class sum {
 		}
 		public void approx()
 		{
-	        Scanner sc=new Scanner(System.in);
+	        
 			
 			System.out.print("Enter Your Operator:-");
 			double a=sc.nextDouble();
@@ -161,7 +161,7 @@ public class sum {
 		}
 		public void power()
 		{
-			Scanner sc=new Scanner(System.in);
+			
 			System.out.print("Enter First Operator:-");
 			double a=sc.nextDouble();
 			setOperator1(a);
@@ -177,7 +177,7 @@ public class sum {
 		}
 		public void facto()
 		{
-	        Scanner sc=new Scanner(System.in);
+	        
 			System.out.print("Enter First Operator:-");
 			int a=sc.nextInt();
 			setOperator1(a);
