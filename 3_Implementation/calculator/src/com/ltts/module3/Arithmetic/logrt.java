@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import com.ltts.module3.sum.sum;
 
-public class logr {
+public class logrt {
 	Scanner sc=new Scanner(System.in);
 	private double operator;
 	private double result;
@@ -20,12 +20,12 @@ public class logr {
 	public void setResult(double result) {
 		this.result = result;
 	}
-	public logr(double operator, double result) {
+	public logrt(double operator, double result) {
 		super();
 		this.operator = operator;
 		this.result = result;
 	}
-	public logr() {
+	public logrt() {
 		super();
 	}
 	public void loge()
