@@ -1,5 +1,3 @@
-# OfflineConsoleCalculator
-
 # M1_CALCULATOR_UTILITY
 ## Description
 
