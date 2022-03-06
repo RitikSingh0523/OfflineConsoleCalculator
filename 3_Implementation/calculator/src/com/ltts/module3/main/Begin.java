@@ -3,6 +3,7 @@ package com.ltts.module3.main;
 import java.util.Scanner;
 
 import com.ltts.module3.Arithmetic.Arithmetic;
+import com.ltts.module3.CompoundInterest.compoundInterest;
 import com.ltts.module3.SimpleInterest.SimpleInterest;
 
 public class Begin {
@@ -24,7 +25,8 @@ public class Begin {
 			si.simple();
 			break;
 		case 3:
-			
+			compoundInterest ci=new compoundInterest();
+			ci.simple();
 		break;
 		case 4:
 			End ed=new End();

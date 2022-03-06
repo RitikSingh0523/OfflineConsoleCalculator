@@ -99,8 +99,8 @@ public class SimpleInterest {
 		System.out.println("\nYour TotalAmount is :-");
 		System.out.print(getTotalAmount());
 		System.out.print("\n");
-		SimpleInterest si=new SimpleInterest();
-		si.simple();
+		SimpleInterest si1=new SimpleInterest();
+		si1.simple();
 		break;
 	case 3:
 		System.out.println("Enter Princple Amount:-");
@@ -121,8 +121,8 @@ public class SimpleInterest {
 		System.out.println("\nYour TotalAmount is :-");
 		System.out.print(getTotalAmount());
 		System.out.print("\n");
-		SimpleInterest si=new SimpleInterest();
-		si.simple();
+		SimpleInterest si11=new SimpleInterest();
+		si11.simple();
 		break;
 	case 4:
 		System.out.println("Enter Princple Amount:-");
@@ -143,8 +143,8 @@ public class SimpleInterest {
 		System.out.println("\nYour TotalAmount is :-");
 		System.out.print(getTotalAmount());
 		System.out.print("\n");
-		SimpleInterest si=new SimpleInterest();
-		si.simple();
+		SimpleInterest si111=new SimpleInterest();
+		si111.simple();
 		break;
 	case 5:
 		Begin bg=new Begin();
