@@ -17,17 +17,17 @@ public class Begin {
 		case 1:
 			Arithmetic ar=new Arithmetic();
 			ar.option();
-			break;
+		break;
 		case 2:
 			
-			break;
+		break;
 		case 3:
 			
-			break;
+		break;
 		case 4:
 			End ed=new End();
 			ed.end();
-			break;
+		break;
 		default:
 			System.err.print("Wrong Input");
 			

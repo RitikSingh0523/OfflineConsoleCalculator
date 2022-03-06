@@ -3,6 +3,7 @@ package com.ltts.module3.sum;
 import java.util.Scanner;
 
 import com.ltts.module3.Arithmetic.Arithmetic;
+import com.ltts.module3.Arithmetic.Trigno;
 
 
 public class sum {
@@ -198,6 +199,41 @@ public class sum {
 			Arithmetic br=new Arithmetic();
 			br.option();
 		}
+		public void trigo()
+		{
+			System.out.println("1.Sin\n2.Cos\n3.Tan\n4.Cosec\n5.Sec\n6.Cot\n7.Exit");
+			int n=sc.nextInt();
+			Trigno tr=new Trigno();
+			switch(n)
+			{
+			case 1:
+				tr.sine();
+			break;
+			case 2:
+				tr.cosc();
+			break;
+			case 3:
+				tr.Tang();
+			break;
+			case 4:
+				tr.cose();
+			break;
+			case 5:
+				tr.secc();
+			break;
+			case 6:
+				tr.cote();
+			break;
+			case 7:
+				Arithmetic br=new Arithmetic();
+				br.option();
+			default:
+				System.out.println("Wrong Input");
+			}
+			Arithmetic br=new Arithmetic();
+			br.option();
+		}
+		
 		
 		
 
