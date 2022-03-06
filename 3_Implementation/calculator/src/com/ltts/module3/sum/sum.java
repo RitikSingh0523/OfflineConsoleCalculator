@@ -229,6 +229,7 @@ public class sum {
 				br.option();
 			default:
 				System.out.println("Wrong Input");
+			break;
 			}
 			Arithmetic br=new Arithmetic();
 			br.option();
