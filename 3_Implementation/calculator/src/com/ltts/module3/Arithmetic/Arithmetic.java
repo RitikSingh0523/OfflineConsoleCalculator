@@ -6,7 +6,7 @@ public class Arithmetic {
 	public void option()
 	{
 		
-		System.out.println("1.Sum\n2.Substract\n3.Multiplication\n4.Division\n5.Square\n6.SquareRoot\n7.Approx Value\n8.Power of Number\n9.Factorial\n10.Trignomatric Function");
+		System.out.println("1.Sum\n2.Substract\n3.Multiplication\n4.Division\n5.Square\n6.SquareRoot\n7.Approx Value\n8.Power of Number\n9.Factorial\n10.Trignomatric Function\n11.Persentage");
 		int opti=sca.nextInt();
 		sum s1=new sum();
 		switch(opti)
@@ -14,33 +14,33 @@ public class Arithmetic {
 		case 1:
 			
 			s1.resl();
-		break;
+			break;
         case 2:
         	
         	s1.Subs();
 			
-		break;
+        	break;
         case 3:
 			
 			s1.mult();
-		break;
+			break;
         case 4:
 			
 			s1.divi();
-		break;
+			break;
         case 5:
         	
         	s1.square();
 			
-		break;
+        	break;
         case 6:
         	
         	s1.Squareroot();
-		break;
+        	break;
         case 7:
         	
         	s1.approx();
-        break;
+        	break;
         case 8:
         	
         	s1.power();
@@ -48,12 +48,19 @@ public class Arithmetic {
         case 9:
         	
         	s1.facto();
-        break;
+        	break;
         case 10:
         	
         	s1.trigo();
-        break;
+        	break;
+        case 11:
+			s1.persentage();
+			break;
+        case 12:
+        	s1.log();
+        
 		}
+		
 	}
 
 }

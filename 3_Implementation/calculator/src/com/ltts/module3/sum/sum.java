@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import com.ltts.module3.Arithmetic.Arithmetic;
 import com.ltts.module3.Arithmetic.Trigno;
+import com.ltts.module3.Arithmetic.logr;
 
 
 public class sum {
@@ -208,31 +209,53 @@ public class sum {
 			{
 			case 1:
 				tr.sine();
-			break;
+				break;
 			case 2:
 				tr.cosc();
-			break;
+				break;
 			case 3:
 				tr.Tang();
-			break;
+				break;
 			case 4:
 				tr.cose();
-			break;
+				break;
 			case 5:
 				tr.secc();
-			break;
+				break;
 			case 6:
 				tr.cote();
-			break;
+				break;
 			case 7:
 				Arithmetic br=new Arithmetic();
 				br.option();
+				break;
 			default:
 				System.out.println("Wrong Input");
-			break;
+			
 			}
 			Arithmetic br=new Arithmetic();
 			br.option();
+		}
+		public void persentage()
+		{
+
+			System.out.print("Enter Number:-");
+			double a=sc.nextDouble();
+			setOperator1(a);
+			System.out.print("Enter Persentage:-");
+			double b=sc.nextDouble();
+			setOperator2(b);
+			double res=(getOperator1()*getOperator2())/100;
+			setResult(res);
+			System.out.print(getResult());
+			System.out.print("\n");
+			Arithmetic br=new Arithmetic();
+			br.option();
+		}
+		public void log()
+		{
+			logr lg=new logr();
+			lg.loge();
 		}
 		
 		
