@@ -39,6 +39,8 @@ when
   >Can be used to perform all basic arthmatic operations.
 How
   >Developed Using c Programming
+
+
 ![Code Quailty Score](https://api.codiga.io/project/31596/score/svg)
 ![Code Grade](https://api.codiga.io/project/31596/status/svg)
 # 2_Architecture
