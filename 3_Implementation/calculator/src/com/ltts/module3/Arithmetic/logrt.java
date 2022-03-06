@@ -2,7 +2,10 @@ package com.ltts.module3.Arithmetic;
 
 import java.util.Scanner;
 
-import com.ltts.module3.sum.sum;
+
+import com.ltts.module3.operation.operation;
+
+
 
 public class logrt {
 	Scanner sc=new Scanner(System.in);
@@ -42,7 +45,7 @@ public class logrt {
 			setResult(res);
 			System.out.print(getResult());
 			System.out.print("\n");
-			sum s1=new sum();
+			operation s1=new operation();
 			s1.log();
 			break;
 		case 2:
@@ -53,7 +56,7 @@ public class logrt {
 			setResult(res1);
 			System.out.print(getResult());
 			System.out.print("\n");
-			sum s2=new sum();
+			operation s2=new operation();
 			s2.log();
 			break;
 		case 3:

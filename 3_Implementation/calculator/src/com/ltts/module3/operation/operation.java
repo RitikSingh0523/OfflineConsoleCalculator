@@ -1,21 +1,22 @@
-package com.ltts.module3.sum;
+package com.ltts.module3.operation;
 
 import java.util.Scanner;
 
 import com.ltts.module3.Arithmetic.Arithmetic;
 import com.ltts.module3.Arithmetic.Trigno;
-import com.ltts.module3.Arithmetic.logr;
+
+import com.ltts.module3.Arithmetic.logrt;
 
 
-public class sum {
+public class operation {
 	    Scanner sc=new Scanner(System.in);
 		private double operator1;
 		private double operator2;
 		private double result;
-		public sum() {
+		public operation() {
 			super();
 		}
-		public sum(double operator1, double operator2, double result) {
+		public operation(double operator1, double operator2, double result) {
 			super();
 			this.operator1 = operator1;
 			this.operator2 = operator2;
@@ -40,7 +41,7 @@ public class sum {
 			this.result = result;
 		}
 		
-		public void resl()
+		public void sum()
 		{
 			
 			
@@ -254,7 +255,7 @@ public class sum {
 		}
 		public void log()
 		{
-			logr lg=new logr();
+			logrt lg=new logrt();
 			lg.loge();
 		}
 		

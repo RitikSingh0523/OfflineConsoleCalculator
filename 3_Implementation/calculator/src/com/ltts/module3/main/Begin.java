@@ -3,6 +3,7 @@ package com.ltts.module3.main;
 import java.util.Scanner;
 
 import com.ltts.module3.Arithmetic.Arithmetic;
+import com.ltts.module3.SimpleInterest.SimpleInterest;
 
 public class Begin {
 	Scanner scan=new Scanner(System.in);
@@ -19,7 +20,8 @@ public class Begin {
 			ar.option();
 			break;
 		case 2:
-			
+			SimpleInterest si=new SimpleInterest();
+			si.simple();
 			break;
 		case 3:
 			

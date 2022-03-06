@@ -1,19 +1,23 @@
 package com.ltts.module3.Arithmetic;
 import java.util.Scanner;
-import com.ltts.module3.sum.sum;
+
+import com.ltts.module3.main.Begin;
+import com.ltts.module3.main.End;
+import com.ltts.module3.operation.operation;
+
 public class Arithmetic {
 	Scanner sca=new Scanner(System.in);
 	public void option()
 	{
 		
-		System.out.println("1.Sum\n2.Substract\n3.Multiplication\n4.Division\n5.Square\n6.SquareRoot\n7.Approx Value\n8.Power of Number\n9.Factorial\n10.Trignomatric Function\n11.Persentage");
+		System.out.println("1.Sum\n2.Substract\n3.Multiplication\n4.Division\n5.Square\n6.SquareRoot\n7.Approx Value\n8.Power of Number\n9.Factorial\n10.Trignomatric Function\n11.Persentage\n12.Log Functions\n13.Exit\n14.END");
 		int opti=sca.nextInt();
-		sum s1=new sum();
+		operation s1=new operation();
 		switch(opti)
 		{
 		case 1:
 			
-			s1.resl();
+			s1.sum();
 			break;
         case 2:
         	
@@ -58,6 +62,18 @@ public class Arithmetic {
 			break;
         case 12:
         	s1.log();
+        	break;
+        case 13:
+        	Begin bg=new Begin();
+    		bg.start();
+    		System.out.print("\n");
+    		break;
+        case 14:
+        	End ed=new End();
+			ed.end();
+			break;
+		default:
+			System.err.print("Wrong Input");
         
 		}
 		
