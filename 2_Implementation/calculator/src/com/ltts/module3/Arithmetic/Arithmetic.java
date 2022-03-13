@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 import com.ltts.module3.main.Begin;
 import com.ltts.module3.main.End;
-import com.ltts.module3.operation.operation;
+import com.ltts.module3.operation.Operation;
 
 public class Arithmetic {
 	Scanner sca=new Scanner(System.in);
@@ -12,7 +12,7 @@ public class Arithmetic {
 		
 		System.out.println("1.Sum\n2.Substract\n3.Multiplication\n4.Division\n5.Square\n6.SquareRoot\n7.Approx Value\n8.Power of Number\n9.Factorial\n10.Trignomatric Function\n11.Persentage\n12.Log Functions\n13.Exit\n14.END");
 		int opti=sca.nextInt();
-		operation s1=new operation();
+		Operation s1=new Operation();
 		switch(opti)
 		{
 		case 1:

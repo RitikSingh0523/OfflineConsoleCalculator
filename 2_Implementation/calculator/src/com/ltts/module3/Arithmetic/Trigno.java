@@ -2,7 +2,7 @@ package com.ltts.module3.Arithmetic;
 
 import java.util.Scanner;
 
-import com.ltts.module3.operation.operation;
+import com.ltts.module3.operation.Operation;
 
 
 public class Trigno {
@@ -45,7 +45,7 @@ public class Trigno {
 		setResult(res);
 		System.out.print(getResult());
 		System.out.print("\n");
-		operation s1=new operation();
+		Operation s1=new Operation();
 		s1.trigo();
 	}
 	public void cosc()
@@ -57,7 +57,7 @@ public class Trigno {
 		setResult(res);
 		System.out.print(getResult());
 		System.out.print("\n");
-		operation s1=new operation();
+		Operation s1=new Operation();
 		s1.trigo();
 	}
 	public void Tang()
@@ -68,7 +68,7 @@ public class Trigno {
 		double res=Math.tan(getAngle());
 		setResult(res);
 		System.out.print(getResult());
-		operation s1=new operation();
+		Operation s1=new Operation();
 		s1.trigo();
 	}
 	public void cose()
@@ -80,7 +80,7 @@ public class Trigno {
 		setResult(res);
 		System.out.print(getResult());
 		System.out.print("\n");
-		operation s1=new operation();
+		Operation s1=new Operation();
 		s1.trigo();
 	}
 	public void secc()
@@ -92,7 +92,7 @@ public class Trigno {
 		setResult(res);
 		System.out.print(getResult());
 		System.out.print("\n");
-		operation s1=new operation();
+		Operation s1=new Operation();
 		s1.trigo();
 	}
 	public void cote()
@@ -104,7 +104,7 @@ public class Trigno {
 		setResult(res);
 		System.out.print(getResult());
 		System.out.print("\n");
-		operation s1=new operation();
+		Operation s1=new Operation();
 		s1.trigo();
 	}
 

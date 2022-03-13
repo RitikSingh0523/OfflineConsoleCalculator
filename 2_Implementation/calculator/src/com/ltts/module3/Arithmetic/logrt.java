@@ -3,11 +3,11 @@ package com.ltts.module3.Arithmetic;
 import java.util.Scanner;
 
 
-import com.ltts.module3.operation.operation;
+import com.ltts.module3.operation.Operation;
 
 
 
-public class logrt {
+public class Logrt {
 	Scanner sc=new Scanner(System.in);
 	private double operator;
 	private double result;
@@ -23,12 +23,12 @@ public class logrt {
 	public void setResult(double result) {
 		this.result = result;
 	}
-	public logrt(double operator, double result) {
+	public Logrt(double operator, double result) {
 		super();
 		this.operator = operator;
 		this.result = result;
 	}
-	public logrt() {
+	public Logrt() {
 		super();
 	}
 	public void loge()
@@ -45,7 +45,7 @@ public class logrt {
 			setResult(res);
 			System.out.print(getResult());
 			System.out.print("\n");
-			operation s1=new operation();
+			Operation s1=new Operation();
 			s1.log();
 			break;
 		case 2:
@@ -56,7 +56,7 @@ public class logrt {
 			setResult(res1);
 			System.out.print(getResult());
 			System.out.print("\n");
-			operation s2=new operation();
+			Operation s2=new Operation();
 			s2.log();
 			break;
 		case 3:

@@ -6,7 +6,7 @@ import com.ltts.module3.Arithmetic.Arithmetic;
 import com.ltts.module3.CompoundInterest.compoundInterest;
 import com.ltts.module3.SimpleInterest.SimpleInterest;
 
-public class Begin {
+public final class Begin {
 	Scanner scan=new Scanner(System.in);
 	public void start()
 	{

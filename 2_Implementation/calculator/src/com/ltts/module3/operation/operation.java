@@ -5,18 +5,18 @@ import java.util.Scanner;
 import com.ltts.module3.Arithmetic.Arithmetic;
 import com.ltts.module3.Arithmetic.Trigno;
 
-import com.ltts.module3.Arithmetic.logrt;
+import com.ltts.module3.Arithmetic.Logrt;
 
 
-public class operation {
+public class Operation {
 	    Scanner sc=new Scanner(System.in);
 		private double operator1;
 		private double operator2;
 		private double result;
-		public operation() {
+		public Operation() {
 			super();
 		}
-		public operation(double operator1, double operator2, double result) {
+		public Operation(double operator1, double operator2, double result) {
 			super();
 			this.operator1 = operator1;
 			this.operator2 = operator2;
@@ -255,7 +255,7 @@ public class operation {
 		}
 		public void log()
 		{
-			logrt lg=new logrt();
+			Logrt lg=new Logrt();
 			lg.loge();
 		}
 		
