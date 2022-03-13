@@ -1,6 +1,6 @@
 # OfflineConsoleCalculator
 
-# M1_CALCULATOR_UTILITY
+
 ## Description
 
 IT IS A BASIC CALCULATOR FOR NORMAL USE.
